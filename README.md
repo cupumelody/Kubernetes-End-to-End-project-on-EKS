@@ -133,7 +133,7 @@ With IAM users set up, you can now configure the AWS CLI and kubectl on your loc
      kubectl get nodes
      ```
 
-## 2.3 Preparing Networking and Security Groups for EKS
+
 
 Before launching an EKS cluster, you need to prepare the networking and security groups to ensure proper communication and security within the cluster:
 
@@ -196,7 +196,6 @@ By setting up an Internet Gateway and updating the Route Tables, you provide int
 
 4. **Configuring IAM Policies**
 
-**Identity and Access Management (IAM)** is a service in AWS that allows you to manage access to AWS resources securely. IAM policies define permissions that specify what actions are allowed or denied on specific AWS resources. For your EKS cluster, you'll need to configure IAM policies to grant necessary permissions to your worker nodes and other resources. Here's how to do it:
 
 1. **Create a Custom IAM Policy**:
    - Go to the AWS Management Console and navigate to the IAM service.
